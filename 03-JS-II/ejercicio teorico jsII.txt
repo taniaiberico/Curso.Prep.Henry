@@ -1,0 +1,15 @@
+BUCLE FOR : se utiliza para repetir una o mas instrucciones un determinado numero de veces . 
+se utiliza cuando sabemos de seguro el numero de veces que queremos que se ejecute dicha instruccion. Consta de 3 partes bien definidas , la primera indica desde donde inicia el bucle, la segunda  es la condicion para que se ejecute y la tercera la actualizacion que se repetira hasta completar la condicion indicada.
+ejemplo: for ( var i = 0 ; i < 9 ; i++) console.log (i) 
+
+OPERADORES LOGICOS &&, || : 
+&& es igual a ("Y") o ("End" en ingles) vincula dos condiciones, las cuales deben ser verdaderas para poder continuar de lo contario regresa falso. 
+
+|| : significa "o" u OR en ingles , es un operador que indica que al menos una de las condiciones vinculadas debe ser verdadera para continuar de lo contrario retorna falso.
+Tanto para && como para || puede vincular dos condiciones cuyo resultado retorne en verdadero o falso (bolean) ,pero tambien puede devolver  una expresion numerica (si las condiciones lo son  ).
+
+OPERADOR DE COMPARACION != : significa "no es igual" ,compara dos valores , devolviendo true si es verdadero y false si es falso. En este caso javascript intenta convertir a tipos de datos compatibles antes de verificar la desigualdad . 
+por ejemplo : var a = 3 
+               var b = "3"
+               a =! b (imprimira en pantalla false , ya que convierte a ambos valores en el mismo tipo de dato )
+                
